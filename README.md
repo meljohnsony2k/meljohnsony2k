@@ -1,12 +1,12 @@
-# Hi, I'm Mel 👋
+# Hi, I'm Mel J
 
-Mechatronics engineer in Melbourne. I work across robotics, sensor fusion, control systems and automotive electronics. I like being close to the hardware: building it, testing it and getting it to run reliably.
+Mechatronics engineer in Melbourne. I work across robotics, sensor fusion, control systems and automotive electronics. I like being close to the hardware: building it, testing it and iterating it to run efficiently.
 
-Master of Mechatronics Engineering, University of Melbourne · B.Tech Electronics and Communication (IoT and Sensor Networks), VIT
+M.Eng Mechatronics Engineering (Manufacturing), University of Melbourne · B.Tech Electronics and Communication Engineering (IoT and Sensors), VIT Vellore
 
 ---
 
-### 📌 Featured projects
+### 📌 Featured Projects
 
 **[Autonomous Mining Vehicle Localisation](https://github.com/meljohnsony2k/autonomous-mining-vehicle-sensor-fusion)**
 UKF sensor fusion (IMU + LiDAR AMCL + GPS) in ROS that keeps a vehicle localised when GPS drops out in tunnels. Error grew about 3× slower than LiDAR alone in simulation. Tested on a custom robot.
