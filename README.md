@@ -10,7 +10,7 @@ I build and test systems where software meets hardware: feedback control, sensor
 
 ---
 
-### Robotics and control
+### Robotics, sensing and control
 
 <table>
 <tr>
@@ -55,6 +55,20 @@ I build and test systems where software meets hardware: feedback control, sensor
 <br><sub>MATLAB · SymPy · Rigid body dynamics</sub>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/meljohnsony2k/smartphone-pedestrian-navigation"><img src="assets/projects/pedestrian-nav.jpg" width="100%" alt="Smartphone pedestrian navigation"></a>
+<br><b><a href="https://github.com/meljohnsony2k/smartphone-pedestrian-navigation">Smartphone Pedestrian Navigation</a></b>
+<br>Step counting, gyro and compass fused in a Kalman filter, and loop closure, from a phone's IMU alone. 4.9 m RMS position error over a 450 m lap against GPS.
+<br><sub>IMU · Kalman filter · Sensor calibration · Python</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/meljohnsony2k/mechanical-pet-turtle"><img src="assets/projects/turtle.jpg" width="100%" alt="Mechanical pet turtle"></a>
+<br><b><a href="https://github.com/meljohnsony2k/mechanical-pet-turtle">Mechanical Pet Turtle</a></b>
+<br>Swimming robot with a 23:1 gear train, Chebyshev linkages and a retracting head driven by a stepper and ultrasonic sensor. Firmware tested against a mocked Arduino.
+<br><sub>Mechanisms · Arduino · Laser cutting · C++</sub>
+</td>
+</tr>
 </table>
 
 ### Automotive and manufacturing
@@ -90,16 +104,10 @@ I build and test systems where software meets hardware: feedback control, sensor
 </tr>
 </table>
 
-### Mechanisms and tools
+### Tools
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/meljohnsony2k/mechanical-pet-turtle"><img src="assets/projects/turtle.jpg" width="100%" alt="Mechanical pet turtle"></a>
-<br><b><a href="https://github.com/meljohnsony2k/mechanical-pet-turtle">Mechanical Pet Turtle</a></b>
-<br>Swimming robot with a 23:1 gear train, Chebyshev linkages and a retracting head driven by a stepper and ultrasonic sensor. Firmware tested against a mocked Arduino.
-<br><sub>Mechanisms · Arduino · Laser cutting · C++</sub>
-</td>
 <td width="50%" valign="top">
 <a href="https://github.com/meljohnsony2k/rideshare-gst-ledger"><img src="assets/projects/gst.jpg" width="100%" alt="Rideshare GST ledger"></a>
 <br><b><a href="https://github.com/meljohnsony2k/rideshare-gst-ledger">Rideshare GST Ledger</a></b>
@@ -115,7 +123,7 @@ I build and test systems where software meets hardware: feedback control, sensor
 
 | Area | Tools |
 |---|---|
-| **Controls and robotics** | ROS, Gazebo, sensor fusion (UKF, EKF), SLAM, PID and loop shaping, system identification, statecharts, PLC (Ladder, Structured Text) |
+| **Controls and robotics** | ROS, Gazebo, sensor fusion (UKF, EKF, Kalman), IMU calibration, SLAM, PID and loop shaping, system identification, statecharts, PLC (Ladder, Structured Text) |
 | **Automotive** | Vehicle electronics, CAN, DoIP and UDS diagnostics, ECU diagnostics (Toyota Techstream, OBD-II), BMW coding (E-Sys), wiring harness integration |
 | **Embedded and software** | C/C++, Arduino, myRIO, Python, MATLAB/Simulink, LabVIEW |
 | **Design and manufacturing** | SolidWorks, Fusion 360, AutoCAD, DFM/DFA, tolerance analysis, Gage R&R, reliability analysis |
