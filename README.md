@@ -5,6 +5,11 @@
 
 I build and test systems where software meets hardware: feedback control, sensor fusion, embedded firmware and vehicle electronics. I like to get close to the real thing, measure it, model it, and make it run reliably.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="43.08 s fastest class run, 4.9 m error over 450 m, 3x slower drift, 6x longer hinge life" src="assets/stats-light.svg" width="100%">
+</picture>
+
 **Master of Mechatronics Engineering (Manufacturing)**, University of Melbourne<br>
 **Bachelor of Technology, Electronics and Communication Engineering (IoT and Sensors)**, VIT Vellore
 
